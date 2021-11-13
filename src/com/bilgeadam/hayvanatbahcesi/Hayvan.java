@@ -7,6 +7,7 @@ public abstract class Hayvan {
     private String ad;
     private double agirlik;
     private double uzunluk;
+    private double kuyrukUzunlugu;
 
     public Hayvan() {
         ad = "";
@@ -36,6 +37,14 @@ public abstract class Hayvan {
 
     public void setAd(String ad) {
         this.ad = ad;
+    }
+
+    public double getKuyrukUzunlugu() {
+        return kuyrukUzunlugu;
+    }
+
+    public void setKuyrukUzunlugu(double kuyrukUzunlugu) {
+        this.kuyrukUzunlugu = kuyrukUzunlugu;
     }
 
     public void sesCikar() {

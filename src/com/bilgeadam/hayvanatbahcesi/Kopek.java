@@ -28,6 +28,7 @@ public class Kopek extends Hayvan {
         return  "Ad: " + getAd() + "\n" +
                 "Ağırlık: " + getAgirlik() + "\n" +
                 "Uzunluk: " + getUzunluk() + "\n" +
-                "Cins: " + getKopekCins();
+                "Cins: " + getKopekCins() + "\n" +
+                "Kuyruk Uzunluğu: " + getKuyrukUzunlugu();
     }
 }
